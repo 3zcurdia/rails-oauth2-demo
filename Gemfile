@@ -34,7 +34,7 @@ gem "redis", "~> 4.0"
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "omniauth", "~> 2.0"
+gem "omniauth-oauth2", "~> 1.7"
+gem "omniauth-rails_csrf_protection", "~> 1.0"
